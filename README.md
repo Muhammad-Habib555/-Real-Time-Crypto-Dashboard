@@ -1,4 +1,5 @@
 🚀 Real-Time Crypto Dashboard (Yahoo Finance API)
+Made by:Muhammad Habib
 
 This is an interactive real-time cryptocurrency dashboard built using Streamlit and powered by Yahoo Finance (yfinance).
 It fetches live crypto prices, market statistics, trends, and OHLC data, and displays them in a clean, responsive layout with multi-row KPIs.
