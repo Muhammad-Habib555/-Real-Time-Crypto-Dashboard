@@ -13,7 +13,7 @@ st.set_page_config(page_title="Real-Time Crypto Dashboard", layout="wide")
 # --------------------------------------------------------
 # Auto Refresh
 # --------------------------------------------------------
-refresh_time = st.sidebar.slider("Auto Refresh (seconds)", 10, 60, 20)
+refresh_time = st.sidebar.slider("Auto Refresh (seconds)", 120, 240, 80)
 st_autorefresh(interval=refresh_time * 1000, key="crypto_dashboard_refresh")
 
 # --------------------------------------------------------
